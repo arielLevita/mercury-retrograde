@@ -1,0 +1,52 @@
+* {
+    margin: 10px 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 255, 112);
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 50px;
+    color: darkmagenta;
+}
+
+span {
+    font-size: 50px;
+    color: brown;
+    text-transform: uppercase;
+}
+
+label {
+    color: rgb(255, 86, 86);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+input {
+    font-size: 30px;
+    background-color: rgb(255, 198, 93);
+}
+
+button {
+    font-size: 20px;
+    padding: 0.5em 1em;
+    background-color: greenyellow;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#result {
+    color: crimson;
+    font-size: 40px;
+}
