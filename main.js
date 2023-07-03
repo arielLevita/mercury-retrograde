@@ -26,7 +26,7 @@ function checkMercuryRetrograde(date) {
         .then((data) => {
             const isRetrograde = data.is_retrograde;
             const retrogradeStatus = isRetrograde ? 'SI' : 'NO';
-            document.getElementById('result').innerHTML = `Mercurio ${retrogradeStatus} va a estar retrogrado el día ${formattedDateBackwards}`;
+            document.getElementById('result').innerHTML = `Mercurio <span class="result-text">${retrogradeStatus}</span> va a estar retrogrado el día <span class="result-text">${formattedDateBackwards}</span>`;
             // alert(`Mercury is retrograde on ${formattedDate}: ${retrogradeStatus}`);
         })
         .catch((error) => {

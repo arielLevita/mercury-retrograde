@@ -2,30 +2,32 @@
 <html>
 
 <head>
-    <title>Mercury Retrograde Checker</title>
+    <title> Chequeador de Mercurio Retrógrado</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <h1>Chequeador de</h1>
-    <h1><span>Mercurio retrógrado</span></h1>
+    <main>
+        <h1>Chequeador de</h1>
+        <h1><span>Mercurio retrógrado</span></h1>
 
-    <form onsubmit="handleSubmit(event)">
-        <div>
-            <label for="date-input">Ingrese la fecha a consultar:</label>
-        </div>
+        <form onsubmit="handleSubmit(event)">
+            <div>
+                <label for="date-input">Ingrese la fecha a consultar:</label>
+            </div>
 
-        <div>
-            <input type="date" id="date-input" min="2016-01-01" max="2030-12-31" required>
-        </div>
+            <div>
+                <input type="date" id="date-input" min="2016-01-01" max="2030-12-31" required>
+            </div>
 
-        <div>
-            <button type="submit">Chequear si va a estar retrógrado</button>
-        </div>
-    </form>
+            <div>
+                <button type="submit">Chequear si va a estar retrógrado</button>
+            </div>
+        </form>
 
-    <h2 id="result"></h2>
+        <h2 id="result"> </h2>
 
+    </main>
     <script src="./main.js"></script>
 </body>
 
