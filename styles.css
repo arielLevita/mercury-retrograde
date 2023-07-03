@@ -1,33 +1,44 @@
 * {
-    margin: 10px 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: large;
 }
 
 body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(255, 255, 112);
-    padding: 1rem;
+    justify-content: space-between;
+    background: url(./assets/mercurio-retrogrado.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
 }
 
 h1 {
     font-size: 50px;
-    color: darkmagenta;
+    color: rgb(190, 91, 190);
+    -webkit-text-stroke: 0.5px white;
+    margin: 0;
 }
 
 span {
-    font-size: 50px;
-    color: brown;
+    color: rgb(202, 76, 76);
     text-transform: uppercase;
 }
 
+form {
+    margin: 1rem 0;
+}
+
+div {
+    margin: 0.5rem 0;
+}
+
 label {
-    color: rgb(255, 86, 86);
+    color: rgb(88, 202, 107);
     font-weight: 600;
     font-size: 30px;
+    -webkit-text-stroke: 0.5px white;
 }
 
 input {
@@ -49,4 +60,5 @@ button {
 #result {
     color: crimson;
     font-size: 40px;
+    -webkit-text-stroke: 0.5px white;
 }
